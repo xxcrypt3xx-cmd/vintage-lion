@@ -1,0 +1,22 @@
+/* This CSS is a free template by me, please do not steal this CSS, use it for your own comms, take credibility, or remove my credit that I put in the CSS. */
+
+body {
+  background: url('https://iili.io/KLi1m8X.jpg') no-repeat center center fixed;
+  color: #271E1A !important;
+  background-size: cover;
+}
+
+.col-md-9.col-xs-12 {
+  background: none !important;
+  border: 4px double #301D0F !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+div.container.main {
+  background: rgba(39, 30, 26, 0.5) !important;
+  border: 4px double #301D0F !important;
+  border-radius: 15px !important;
+  border-left: none !important;
+}
