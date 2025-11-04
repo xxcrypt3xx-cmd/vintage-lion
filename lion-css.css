@@ -40,3 +40,8 @@ div.container.main {
     background: #493831 !important;
   }
 
+.navbar-header > a > img {
+  content: url('https://iili.io/KQVO2HJ.png'); !important;
+  width: 200px;
+}
+
