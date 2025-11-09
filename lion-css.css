@@ -1,5 +1,3 @@
-/* This CSS is a free template by me, please do not steal this CSS, use it for your own comms, take credibility, or remove my credit that I put in the CSS. */
-
 body {
   background: url('https://iili.io/KLi1m8X.jpg') no-repeat center center fixed;
   color: #271E1A !important;
@@ -24,7 +22,7 @@ div.container.main {
 .navbar {
   background: #301D0F !important;
   border: 1px solid #000000 !important;
-  border-radius: 15px !important;
+  border-radius: 15px 50px !important;
   border-bottom: none !important;
   border-top: none !important;
   border-right: none !important;
@@ -37,7 +35,11 @@ div.container.main {
 }
 
   .navbar li a:hover {
-    background: #493831 !important;
+    background: #301D0F !important;
+    color: #493831 !important;
+    border: 0 0 10px #493831, 0 0 20px, #493831, 0 0 40px #493831; !important;
+    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    transition: 0.8s !important;
   }
 
 .navbar-header > a > img {
@@ -81,37 +83,44 @@ div.container.main {
         box-shadow: none !important;
         }
 
-    .s-chat-message:nth-child(even) /* even numbered messages */ {
-        background: #301D0F !important;
-        color: #F3CB98 !important;
-        border: none !important;
-        }
+.s-chat-message:nth-child(even) {
+    background: #301D0F !important;
+    color: #F3CB98 !important;
+    border: 1px dashed #000000 !important;
+}
 
-    .s-chat-messsage:nth-child(odd) /* odd numbered messages */ {
-        background: #301D0F !important;
-        color: #F3CB98 !important;
-        border: none !important;
-        }
+.s-chat-message:nth-child(odd) {
+    background: #594A3E !important;
+    color: #F3CB98 !important;
+    border: 1px dashed #000000 !important;
+}
 
-    .s-chat-message_pinned /* pinned message */ {
-        background: #301D0F !important;
-        color: #F3CB98 !important;
-        border: none !important;
-        }
+.s-chat-message_timestamp {
+    color: #F3CB98 !important;
+}
 
-    .s-chat-message_timestamp /* timestamps */ {
-        color: #F3CB98 !important;
-        }
-    
-    div#chatMessageContainer {
-        border: none !important;
-        }
+#chatMessageContainer {
+    color: #301D0F !important;
+    border: none !important;
+}
 
-    button#label_currentChannel /* Channel Button ie, Main, Sales */ {
-        background: #301D0F !important;
-        color: #F3CB98 !important;
-        border: none !important;
-        }
+button#label_currentChannel {
+    background: #301D0F !important;
+    color: #F3CB98 !important;
+    border: none !important;
+}
+
+.s-chat-message_content {
+    background: none !important;
+    color: #F3CB98 !important;
+    border: none !important;
+}
+
+div#chatMessagePinned {
+    background: #301D0F !important;
+    color: #F3CB98 !important;
+    border: 1px solid #000000 !important;
+}
 
     h1 {
         text-align: center !important;
@@ -162,7 +171,7 @@ div.container.main {
         }
 
     td {
-        background: #301D0F !important;
+        background: none !important;
         color: #F3CB98 !important;
         border: 1px solid #000000 !important;
         border-radius: 15px; !important;
