@@ -37,8 +37,8 @@ div.container.main {
   .navbar li a:hover {
     background: #301D0F !important;
     color: #493831 !important;
-    border: 0 0 10px #493831, 0 0 20px, #493831, 0 0 40px #493831; !important;
-    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    border: 0 0 10px #f3cb98, 0 0 20px, #f3cb98, 0 0 40px #f3cb98; !important;
+    text-shadow: 0 0 5px #f3cb98, 0 0 10px #f3cb98, 0 0 20px #f3cb98; !important;
     transition: 0.8s !important;
   }
 
@@ -196,7 +196,7 @@ div#chatMessagePinned {
 }
 
 .cave-grid:hover {
-    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    text-shadow: 0 0 5px #f3cb98, 0 0 10px #f3cb98, 0 0 20px #f3cb98; !important;
     transition: 0.8s !important;
 }
 
@@ -208,7 +208,7 @@ div#chatMessagePinned {
 }
 
 .mound-grid:hover {
-    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    text-shadow: 0 0 5px #f3cb98, 0 0 10px #f3cb98, 0 0 20px #f3cb98; !important;
     transition: 0.8s !important;
 }
 
