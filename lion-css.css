@@ -187,6 +187,30 @@ div#chatMessagePinned {
         text-align: center !important;
         font-family: "Times New Roman", Times, serif;
         }
+    
+.cave-grid {
+    background: #301D0F !important;
+    color: #F3CB98 !important;
+    border: 1px solid #000000 !important;
+    border-radius: 15px !important;
+}
+
+.cave-grid:hover {
+    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    transition: 0.8s !important;
+}
+
+.mound-grid {
+    background: #301D0F !important;
+    color: #F3CB98 !important;
+    border: 1px solid #000000 !important;
+    border-radius: 15px !important;
+}
+
+.mound-grid:hover {
+    text-shadow: 0 0 5px #493831, 0 0 10px #493831, 0 0 20px #493831; !important;
+    transition: 0.8s !important;
+}
 
     a:link {
         color: #F3CB98 !important;
